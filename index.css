@@ -55,8 +55,13 @@ footer {
   text-align: center;
 }
 
+#social-links-map {
+  display: flex;
+  justify-content: space-between;
+}
+
 #social-links {
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 #social-links a {
@@ -67,5 +72,10 @@ footer {
 }
 
 #social-links a:hover {
-  color: rgb(192, 29, 29);
+  color: gray;
+}
+
+#map {
+  width: 50%;
+  height: 100px;
 }
