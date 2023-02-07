@@ -7,7 +7,8 @@
   <title>Seokamela</title>
   <!-- CSS inclusion  -->
   <link rel="stylesheet" href="index.css">
-
+  <!-- awsome inclusion -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <!-- header  -->
@@ -15,29 +16,42 @@
     <h1>Seokamela</h1>
     <nav>
       <ul>
-        <li><a href="#Home">About</a></li>
+        <li><a href="#Home">home</a></li>
         <li><a href="#About Me">About</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#Project">Contact</a></li>
+        <li><a href="#Project">Projects</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- cover photo sectoin -->
-  <section id="cover-photo"></section>
-
-  <!-- boy div -->
-  <div class="container">
-    <div class="contentA">
-      <p id="blob">
-        What is Lorem Ipsum?
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
-    </div>
-    <div class="contentB">
-      <img id="profile" src="assests/profile.jpg">
-    </div>
+  <div class="cover-photo">
+    <img src="/assests/cover.jpeg" alt="Cover Photo">
   </div>
 
+  <!-- profile and bio -->
+  <section id="profile">
+    <div id="picture-container">
+      <img src="/assests/profile.jpg" alt="Profile Picture">
+    </div>
+    <div id="bio-container">
+      <h1>Seokamela</h1>
+      <p>I am a software engineer graduate from Wethinkcode which is a peer to peer leaning environment,
+        Communication and team work is highly encouraged the program offers NQF level 5 software engineer
+        and runs for two years. first year I used Python and had a change to use google calendar API on one 
+        of the Team projects, Year two we mostly focused on java for our back-end and flutter for front end.
+        also used React for another project which also require Java for back-end.</p>
+    </div>
+  </section>
+
+  <!-- footer  -->
+  <footer>
+    <div id="social-links">
+      <a href="#"><i class="fa fa-facebook-square"></i></a>
+      <a href="#"><i class="fa fa-twitter-square"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Copyright &copy; Seokamelan David 2023</p>
+  </footer>
 </body>
 </html>

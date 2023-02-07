@@ -1,69 +1,71 @@
-body{
-    background-color: rgb(155, 155, 155);
-}
-
+/* header  */
 header {
-    background-color: lightgray;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-h1{
-    font-size: 36px;
-    margin-bottom: 20px;
-    margin: 0;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
-  
 nav ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  list-style: none;
 }
-  
-nav li {
-    margin: 0 10px;
-}
-  
-a {
-    color: black;
-    text-decoration: none;
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
 }
 
-
-#cover-photo {
-    background-image: url(/assests/cover.jpeg);
-    background-size: cover;
-    height: 250px;
-    /* margin-top: 20px; */
-    padding: 10px;
-  }
-
-
-/* divs */
-.container {
-    display: flex;
+  /* Style the cover photo */
+.cover-photo img {
     width: 100%;
-    height: 200px;
+    height: 30%;
 }
 
-.contentA {
-    flex: 1;
+
+
+/* profile */
+#profile {
+  display: flex;
+  align-items: center;
+  padding: 50px;
 }
 
-.contentB {
-    flex: 3;
+#picture-container {
+  width: 40%;
+  text-align: center;
 }
 
-#profile{
-    border-radius: 15%;
-    margin: 50px;
-    height: 200px;
+#picture-container img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
-#blob{
-    margin: 50px;
-    height: 200px;
+#bio-container {
+  width: 60%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+
+/* footer */
+footer {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+#social-links {
+  margin-bottom: 20px;
+}
+
+#social-links a {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#social-links a:hover {
+  color: rgb(192, 29, 29);
 }
