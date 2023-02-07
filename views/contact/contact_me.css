@@ -1,15 +1,41 @@
-form {
-    width: 500px;
-    margin: 0 auto;
-    text-align: left;
+/* header  */
+header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
   }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
   
-  label {
+
+
+.contact-form {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    margin-right: 50px;
+  }
+  .contact-info {
+    float: left;
+    margin-top: 50px;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+  }
+  form label {
     display: block;
     margin-top: 20px;
     font-weight: bold;
   }
-  
   input[type="text"],
   input[type="email"],
   textarea {
@@ -19,8 +45,8 @@ form {
     font-size: 14px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    display: block;
   }
-  
   input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -32,14 +58,20 @@ form {
     border: none;
     cursor: pointer;
   }
-  
   input[type="submit"]:hover {
     background-color: #555;
   }
-  
-  p a i {
+  .contact-info p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .contact-info a i {
     font-size: 20px;
     margin-right: 10px;
     color: #333;
+    display: inline-block;
   }
-  
+
+body{
+    background-color: #ccc;
+}
