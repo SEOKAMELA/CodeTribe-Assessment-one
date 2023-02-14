@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,35 +12,38 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
   <!-- header  -->
   <header>
     <h1>Seokamela</h1>
+    
     <nav>
       <ul>
         <li><a href="/">home</a></li>
-        <li><a href="#About Me">About</a></li>
-        <li><a href="/views/contact/contact_me.html">Contact</a></li>
-        <li><a href="/views/projects/projects.html">Projects</a></li>
+        <li><a href="/views/">about me</a></li>
+        <li><a href="/views/contact/contact_me.html">contact me</a></li>
+        <li><a href="/views/projects/projects.html">projects</a></li>
       </ul>
     </nav>
   </header>
 
-  <div class="video-container" >
+  <div class="video-container">
     <video class="video" autoplay muted loop>
       <source src="/assests/videos/Programmer life _ coding.mp4" type="video/mp4">
     </video>
-  
+
   </div>
-  
+
 
   <!-- profile and bio -->
   <section id="profile">
     <div id="bio-container">
-      <h1 >Seokamela</h1>
+      
+      <h1>Seokamela</h1>
       <p>I am a software engineer graduate from Wethinkcode which is a peer to peer leaning environment,
         Communication and team work is highly encouraged the program offers NQF level 5 software engineer
-        and runs for two years. first year I used Python and had a change to use google calendar API on one 
+        and runs for two years. first year I used Python and had a change to use google calendar API on one
         of the Team projects, Year two we mostly focused on java for our back-end and flutter for front end.
         also used React for another project which also require Java for back-end.</p>
     </div>
@@ -47,22 +51,41 @@
       <img src="/assests/profile.jpg" alt="Profile Picture">
     </div>
   </section>
-  <!-- profile and bio -->
 
-  <!-- footer  -->
   <footer>
-    <div id="social-links">
-      <a href="#"><i class="fa fa-facebook-square"></i></a>
-      <a href="#"><i class="fa fa-twitter-square"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/seokamela-ntjobokoane/"><i class="fa fa-linkedin"></i></a>
+    <div class="column">
+      <h4>Get intouch</h4>
+      <p><i class="fa fa-map-marker"></i> 123 Daveyton, Ekhuruleni</p>
+      <p><i class="fa fa-phone"></i> (+27) 78 618 9190</p>
+      <p><i class="fa fa-envelope"></i> ntjobokoane@gmail.com</p>
+      </br>
+      <ul class="social-icons">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      </ul>
     </div>
-    <div id="map">
-      <iframe src="https://maps.google.com/maps?q=Your location&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <div class="column">
+      <h4>Check my code</h4>
+      <ul class="social-icons">
+        <li><a href="https://www.github.com/yourusername"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.stackoverflow.com/users/youruserid/yourusername"><i
+              class="fa fa-stack-overflow"></i></a></li>
+      </ul>
+
     </div>
-    <p>Copyright &copy; Seokamela 2023</p>
+    <div class="column map">
+      <h4>Find Me</h4>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3382.787426090891!2d-118.3051813848949!3d34.104875880572394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c6e9d8f75305%3A0xb61e87f2d1508a1f!2s123%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090012%2C%20USA!5e0!3m2!1sen!2s!4v1647463231917!5m2!1sen!2s"
+        width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+    </div>
+    </div>
   </footer>
-  <!-- footer  -->
 
 </body>
+
 </html>
