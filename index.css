@@ -1,19 +1,50 @@
 /* header */
 header {
-  background-color:grey;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
   padding: 20px;
+  background-color: grey;
+  border-bottom: 1px solid #ccc;
 }
-nav ul {
-  display: flex;
+
+.header-left h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #000000;
+}
+
+.header-right ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
-nav a {
-  color: black;
+
+.header-right li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-right a {
   text-decoration: none;
-  padding: 10px 20px;
+  color: #000000;
+  font-weight: bold;
 }
+
+.header-right a:hover {
+  color: #fdfdfd;
+}
+
+body {
+  padding-top: 80px;
+}
+
+
 
   /* Style the cover photo */
 .cover-photo img {
@@ -34,6 +65,7 @@ video{
   padding: 50px;
   background-color: grey;
 }
+
 
 #picture-container {
   width: 0%;
@@ -65,11 +97,15 @@ footer {
   justify-content: space-between;
   background-color:grey;
   padding: 20px;
+  
 }
 
 .column {
   flex: 1;
   margin: 0 10px;
+}
+.getintouch{
+  margin-left: 50px;
 }
 
 
