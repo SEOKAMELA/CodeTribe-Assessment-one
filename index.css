@@ -1,3 +1,6 @@
+body{
+  background-color: grey;
+}
 /* header */
 header {
   display: flex;
