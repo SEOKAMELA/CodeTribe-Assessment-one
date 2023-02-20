@@ -13,16 +13,6 @@ header {
   z-index: 100;
   transition: height 0.3s ease-in-out;
 }
-#header{
-  text-decoration: none;
-
-}
-.logo {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333333;
-}
-
 nav ul {
   display: flex;
   list-style: none;

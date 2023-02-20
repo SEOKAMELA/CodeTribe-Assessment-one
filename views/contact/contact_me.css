@@ -13,10 +13,6 @@ header {
   z-index: 100;
   transition: height 0.3s ease-in-out;
 }
-#header{
-  text-decoration: none;
-
-}
 .logo {
   font-size: 2rem;
   font-weight: bold;
@@ -111,4 +107,65 @@ body {
 
 body{
     background-color: #ccc;
+}
+
+
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color:grey;
+  padding: 20px;
+  
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+.getintouch{
+  margin-left: 50px;
+}
+
+
+footer h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #333;
+}
+
+iframe {
+  width: 100%;
+  border: 0;
+  margin-top: 20px;
 }
