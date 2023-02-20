@@ -1,6 +1,3 @@
-body{
-  background-color: grey;
-}
 /* header */
 header {
   position: fixed;
@@ -16,7 +13,10 @@ header {
   z-index: 100;
   transition: height 0.3s ease-in-out;
 }
+#header{
+  text-decoration: none;
 
+}
 .logo {
   font-size: 2rem;
   font-weight: bold;
@@ -43,10 +43,15 @@ nav a {
   font-weight: bold;
 }
 
-
-
+nav a h1 {
+  color: #333333;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
 body {
   padding-top: 50px;
+  background-color: grey;
 }
 
 

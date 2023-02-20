@@ -1,54 +1,58 @@
-body{
-  background-color:grey;
-}
+/* header */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
   background-color: grey;
-  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 5px #dddddd;
+  z-index: 100;
+  transition: height 0.3s ease-in-out;
 }
-
-.header-left h1 {
-  margin: 0;
-  font-size: 36px;
-  color: #000000;
-}
-
-.header-right ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header-right li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.header-right a {
+#header{
   text-decoration: none;
-  color: #000000;
+
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-.header-right a:hover {
-  color: #fdfdfd;
+nav a h1 {
+  color: #333333;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: bold;
 }
-
 body {
-  padding-top: 80px;
+  padding-top: 50px;
+  background-color: grey;
 }
-
-
-
-
 /* container  */
 .container {
   margin-top: 50px;
