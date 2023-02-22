@@ -20,3 +20,5 @@ window.addEventListener("scroll", function() {
   document.getElementById("name").textContent = name;
   document.getElementById("bio").textContent = bio;
   document.getElementById("profile-picture").src = pictureUrl;
+
+

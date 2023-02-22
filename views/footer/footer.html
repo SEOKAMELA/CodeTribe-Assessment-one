@@ -1,0 +1,27 @@
+<footer>
+    <div class="column getintouch">
+      <h4>Get intouch</h4>
+      <p><i class="fa fa-map-marker"></i> ${address}</p>
+      <p><i class="fa fa-phone"></i> ${phoneNumber}</p>
+      <p><i class="fa fa-envelope"></i> ${email}</p>
+      </br>
+      <ul class="social-icons">
+        ${socialMediaLinks.map(link => `<li><a href="${link.link}"><i class="fa fa-${link.platform.toLowerCase()}"></i></a></li>`).join("")}
+      </ul>
+    </div>
+    <div class="column">
+      <h4>Check my code</h4>
+      <ul class="social-icons">
+        <li><a href="${githubLink}"><i class="fa fa-github"></i></a></li>
+        <li><a href="${stackOverflowLink}"><i class="fa fa-stack-overflow"></i></a></li>
+      </ul>
+    </div>
+    <div class="column map">
+      <h4>Find Me</h4>
+      <iframe
+        src="${googleMapsEmbedUrl}"
+        width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </footer>
+  
